@@ -28,7 +28,7 @@ I then saved the cleaned up dataframe to a new csv file.
 
 There were a few more manipulations of the data I chose to do in Tableau. First, the state/province field was a mix of two letter state abbreviations and long province names as well as some other random data. To clean this up I created a calculated field using the following code:
 
-[calculated_field](calculated_field.png)
+![calculated_field](calculated_field.png)
 
 This is just a snapshot but the code created a new calculated field where only the rows that had a state abbreviation were included and that abbreviation was transformed into the full state name. This would allow me to use the State datatype in Tableau to easily generate the interactive map.
 
